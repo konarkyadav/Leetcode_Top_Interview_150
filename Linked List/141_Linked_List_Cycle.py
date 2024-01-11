@@ -1,3 +1,4 @@
+# Reference: https://www.youtube.com/watch?v=gBTe7lFR3vc&ab_channel=NeetCode
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
