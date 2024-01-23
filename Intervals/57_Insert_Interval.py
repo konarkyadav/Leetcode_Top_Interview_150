@@ -1,3 +1,4 @@
+# Reference: https://www.youtube.com/watch?v=A8NUOmlwOlM&ab_channel=NeetCode
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         result = []
