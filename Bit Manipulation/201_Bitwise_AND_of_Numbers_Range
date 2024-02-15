@@ -1,0 +1,10 @@
+# https://www.youtube.com/watch?v=DYVu92_blCk&ab_channel=CodeTree
+class Solution:
+  def rangeBitwiseAnd(self, m: int, n: int) -> int:
+      count = 0
+      while (n != m):
+          m = m >> 1
+          n = n >> 1
+          count+=1
+      return n << count
+    #   return self.rangeBitwiseAnd(m >> 1, n >> 1) << 1 if m < n else måç
